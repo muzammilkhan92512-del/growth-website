@@ -14,8 +14,52 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <meta name="google-site-verification" content="PhRHVMMhfj0xt-8QCITkxgyW5-xVk11o8G3gl38XsD0" />
+
+  <!-- Fixed Fiverr Icon Styles -->
+  <style>
+    .fiverr-fixed-btn {
+      position: fixed;
+      top: 18px;
+      right: 20px;
+      z-index: 99999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #1DBF73;
+      color: #fff;
+      text-decoration: none;
+      padding: 9px 16px 9px 12px;
+      border-radius: 50px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 4px 18px rgba(29,191,115,0.45);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      letter-spacing: 0.3px;
+    }
+    .fiverr-fixed-btn:hover {
+      background: #19a463;
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 8px 28px rgba(29,191,115,0.55);
+    }
+    .fiverr-fixed-btn svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+  </style>
 </head>
 <body>
+
+<!-- FIXED FIVERR ICON -->
+<a href="https://www.fiverr.com/s/38XNLwk" target="_blank" rel="noopener noreferrer" class="fiverr-fixed-btn" title="Hire me on Fiverr">
+  <!-- Official Fiverr "f" logo SVG -->
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="24" height="24" rx="4" fill="white"/>
+    <text x="4" y="18" font-family="Arial Black, sans-serif" font-size="16" font-weight="900" fill="#1DBF73">f</text>
+  </svg>
+  Fiverr
+</a>
 
 <!-- NAVBAR -->
 <nav class="navbar">
@@ -538,11 +582,10 @@
           <h4>📧 Email</h4>
           <a href="mailto:muzammilkhan92512@gmail.com">muzammilkhan92512@gmail.com</a>
         </div>
- <div class="info-item">
+        <div class="info-item">
           <h4>Fiver</h4>
-        <a href="https://www.fiverr.com/s/DBPgE1D" target="_blank">Visit My Fiverr Gig</a>
+          <a href="https://www.fiverr.com/s/DBPgE1D" target="_blank">Visit My Fiverr Gig</a>
         </div>
-        
         <div class="info-item">
           <h4>🕐 Response Time</h4>
           <p>Usually within 20 minutes</p>
